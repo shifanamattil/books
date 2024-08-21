@@ -1,0 +1,106 @@
+/* Comments.css */
+
+/* Container for the whole component */
+.comnts {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgb(176, 8, 8) ;
+}
+
+/* Style for the list of questions */
+.questions {
+    text-align: center;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 25px 0;
+}
+
+.questions li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for the heading section */
+.heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heading h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.heading h4 {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Container for form inputs */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style for the message textarea */
+.message textarea {
+    display: block;
+    width: 100%;
+    padding: 100px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+}
+
+/* Style for the submit button */
+.btn {
+    /* display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgb(176, 8, 8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; */
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(176, 8, 8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:rgb(176, 8, 8);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container input, .message textarea {
+        font-size: 14px;
+    }
+
+    .heading h1 {
+        font-size: 20px;
+    }
+
+    .heading h4 {
+        font-size: 16px;
+    }
+}

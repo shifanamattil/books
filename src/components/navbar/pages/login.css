@@ -1,0 +1,268 @@
+
+
+/* .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header .text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .underline {
+    width: 60px;
+    height: 2px;
+    background-color:rgb(176, 8, 8);
+    margin: 10px auto;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    /* align-items: center; */
+    /* border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .input svg {
+    /* margin-right: 10px; */
+  /* } */
+  
+  /* .forgot-password {
+    /* text-align: center; */
+    /* margin-bottom: 10px; */
+    /* font-size: 14px; */
+  /* } */
+  
+  /* .forgot-password span { */
+    /* color: rgb(176, 8, 8); */
+    /* cursor: pointer; */
+  /* } */
+  
+  /* .submit-container { */
+    /* text-align: center; */
+  /* } */ 
+  
+  /* .submit { */
+    /* background-color: rgb(176, 8, 8) ; */
+    /* color: white; */
+    /* padding: 10px 20px; */
+    /* border-radius: 4px; */
+    /* display: inline-block; */
+    /* cursor: pointer; */
+    /* margin-right: 10px; */
+  /* } */
+  
+  /* .Login { */
+    /* display: inline-block; */
+    /* color:rgb(176, 8, 8); */
+    /* cursor: pointer; */
+  /* } */
+  /* .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(176, 8, 8); /* Added color for consistency */
+  /* } */
+  
+  /* .header .underline {
+    width: 60px;
+    height: 2px;
+    background-color: rgb(176, 8, 8);
+    margin: 10px auto;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 480px;
+    height: 80px;
+  } */
+  
+  /* .input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px; /* Increased padding for better input appearance */
+    /* font-size: 16px; */
+  /* } */
+  
+  /* .input svg { */
+    /* Uncomment if you have an SVG icon to use */
+    /* margin-right: 10px; */
+  /* } */
+  
+  /* .forgot-password { */
+    /* text-align: center; */
+    /* margin-bottom: 10px; */
+    /* font-size: 14px; */
+  /* } */
+   
+  /* .forgot-password span { */
+    /* color: rgb(176, 8, 8); */
+    /* cursor: pointer; */
+  /* } */
+  
+  /* .submit-container { */
+    /* text-align: center; */
+  /* } */
+  
+  /* .submit { */
+    /* background-color: rgb(176, 8, 8); */
+    /* color: white; */
+    /* padding: 10px 20px; */
+    /* border-radius: 4px; */
+    /* display: inline-block; */
+    /* cursor: pointer; */
+    /* margin-right: 10px; */
+  /* } */
+  
+  /* .login-link { */
+    /* color: rgb(176, 8, 8); Adjusted class name and color for consistency */
+    /* cursor: pointer; */
+  /* } */
+  /* .input img{ */
+    /* margin: 0px 30px; */
+  /* }  */
+
+
+
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: 460px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(176, 8, 8); /* Header text color */
+  }
+  
+  .header .underline {
+    width: 60px;
+    height: 2px;
+    background-color: rgb(176, 8, 8);
+    margin: 10px auto;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .input svg {
+    margin-right: 10px;
+    color: #888; /* Icon color */
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .forgot-password span {
+    color: rgb(176, 8, 8); /* Link color */
+    cursor: pointer;
+  }
+  
+  .submit-container {
+    text-align: center;
+  }
+  
+  .submit {
+    background-color: rgb(176, 8, 8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .Login {
+    display: inline-block;
+    color: white; /* Link color */
+    cursor: pointer;
+    background-color:rgb(176, 8, 8);
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .gray{
+    background: #eaeaea;
+    color: #676767;
+  }

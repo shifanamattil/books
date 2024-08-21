@@ -1,0 +1,46 @@
+/* Booklist.css */
+
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    justify-content: flex-start;
+   
+  }
+  
+  /* Each book container */
+  .book-list > div {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Title styling */
+  .book-list h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Image styling */
+  .book-list img {
+    max-width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  /* Optional: hover effect */
+  .book-list > div:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+  }
+  
